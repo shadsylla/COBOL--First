@@ -38,11 +38,11 @@ DISPLAY "enter your salary, then enter how much you want?" *> this is to do a li
 ACCEPT salary
 ACCEPT goal
 COMPUTE AlienOffer =  goal - salary
-DISPLAY goal " - " salary " = " AlienOffer
+DISPLAY goal " - " salary " = " AlienOffer"
 DISPLAY "Enter your 25 years aspirations human " HumaName
 ACCEPT aspirations
-DISPLAY aspirations " Tell how" AlienOffer " will help  you accomplish "  goal
-DISPLAY " We will go back to Europa an think about it. GOOD BYE " HumaName
+DISPLAY aspirations " Tell me how" AlienOffer " will help  you accomplish "  goal
+DISPLAY " We will go back to Europa and think about it. GOOD BYE " HumaName
 
 STOP RUN.
 
@@ -51,14 +51,14 @@ STOP RUN.
  *>There are four main  division.
 
  *>data
- *>envirment
+ *>environment
  *>indentification
- *>proceedure division
+ *>procedure division
 
 *>sections:
 *> data section
 
- *>file sectiont
+ *>file section
  *>working-storage section
 
 *>procedure division
