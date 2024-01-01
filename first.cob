@@ -13,14 +13,14 @@ FILE SECTION.
 WORKING-STORAGE SECTION.
 
 01 UserName PIC X(30) VALUE "You".
-01 Num1     PIC 9 VALUE ZEROS. *> there are real constants and fgurative contants
+01 Num1     PIC 9 VALUE ZEROS. *> there are real constants and figurative contants
                               *> and the zeros are figurative contants
 01 Num2     PIC 9 VALUE ZEROS.
 01 Total    PIC 99 VALUE 0. *> that total can be signs, floats or integers.
 02 SSGroup  PIC 99.
 01 SSNum.
       02 SSArea   PIC 999.
-      02 SSSerial PIC 9999. *> this number 999 indicatest the maximum value
+      02 SSSerial PIC 9999. *> this number 999 indicatest the maximum value.
 
 
               *> this a small program that takes a socialsecurity info.
@@ -64,7 +64,7 @@ STOP RUN.
 *>procedure division
 
 
-*>There are higherchical way to deal with variables in COBOL.
+*>There is a hierarchical system to deal with variables in COBOL.
 
-*>01 UserName PIC X(30) VALUE "You" // this means it will hold an alpha numerical number
-*> Always learning I had lots of fun with COBOL, new ideas came to me. 
+*>01 UserName PIC X(30) VALUE "You" // this means it will hold an alpha numerical number.
+*> Always learning I had lots of fun with COBOL, new ideas are caming to me. 
